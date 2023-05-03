@@ -1,2 +1,8 @@
 # DSS_DesafioPractico2
-Proyecto que contiene la demo de laravel hecha en clase asdadsa
+Repositorio que contiene el proyecto para Desafio Practico #2 de DSS
+
+Creador por:
+
+- Diego Ariel Martinez Lemus ML222767
+
+-
