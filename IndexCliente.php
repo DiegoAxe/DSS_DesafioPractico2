@@ -103,19 +103,20 @@ if (!isset($_SESSION['TipoUsuario'])) {
                                 </div>
                                 <div class="form-group">
                                     <label for="card-number">Número de tarjeta</label>
-                                    <input required type="text" class="form-control" id="card-number" placeholder="Ingresa el número de tu tarjeta">
+                                    <input pattern="^(?:4\d([\- ])?\d{6}\1\d{5}|(?:4\d{3}|5[1-5]\d{2}|6011)([\- ])?\d{4}\2\d{4}\2\d{4})$" 
+                                    required type="text" class="form-control" id="card-number" placeholder="Ingresa el número de tu tarjeta">
                                 </div><br>
                                 <div class="form-group">
                                     <label for="expiration-date">Fecha de expiración</label>
-                                    <input required type="text" class="form-control" id="expiration-date" placeholder="MM/AA">
+                                    <input required type="date" class="form-control" id="expiration-date" placeholder="MM/AA">
                                 </div><br>
                                 <div class="form-group">
                                     <label for="security-code">Código de seguridad</label>
-                                    <input required type="text" class="form-control" id="security-code" placeholder="CVC">
+                                    <input pattern="^[0-9]{3,4}$" required type="text" class="form-control" id="security-code" placeholder="CVC">
                                 </div><br>
                                 <div class="form-group">
                                     <label for="card-holder">Nombre del titular de la tarjeta</label>
-                                    <input required type="text" class="form-control" id="card-holder" placeholder="Ingresa el nombre del titular de la tarjeta">
+                                    <input pattern="^((?:[A-Za-z]+ ?){1,3})$" required type="text" class="form-control" id="card-holder" placeholder="Ingresa el nombre del titular de la tarjeta">
                                 </div>
 
                             </div>
