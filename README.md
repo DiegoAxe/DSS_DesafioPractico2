@@ -5,4 +5,4 @@ Creador por:
 
 - Diego Ariel Martinez Lemus ML222767
 
--Cristian Alexis Lopez Tamayo LT222760
+- Cristian Alexis Lopez Tamayo LT222760
